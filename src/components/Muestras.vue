@@ -65,7 +65,7 @@ div
     //- .boton debe ir acompañado de una de una de estas clases => 
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
     a.boton.me-3.indicador__container(
-      :href="obtenerLink('/downloads/prueba.pdf')"
+      :href="obtenerLink('/downloads/prueba.pdf')" 
       target="_blank"
       type="application/pdf"
       @mouseover="mostrarIndicador = false"
@@ -699,7 +699,7 @@ div
     .row.m-0.align-items-center.justify-content-between
       .col-lg-4.mb-4.mb-lg-0
         h2.mb-0 Whatever can be captured in words can be conquered with understanding. 
-      .col-lg-8
+      .col-lg-8 
         .bloque-texto-a__texto.p-4
           p Think about all the possibilities. A good composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Nothing of without working at it. Be impossible to ignore.
             br

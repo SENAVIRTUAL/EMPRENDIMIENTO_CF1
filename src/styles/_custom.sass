@@ -1,0 +1,440 @@
+// General
+.titulo-principal__numero
+  background-color: $color-acento-contenido
+.titulo-principal__numero span
+  color: $white
+.margin-0-auto
+  margin: 0 auto
+.position-relative
+  position: relative
+.position-absolute
+  position: absolute
+.overflow-hidden
+  overflow: hidden
+.text-left
+  text-align: left
+.align-items-center
+  align-items: center
+.h4
+  margin-bottom: 0px !important
+p
+  margin-bottom: 0px !important
+.font-1em
+  font-size: 1em
+.font-11
+  font-size: 11px
+.font-12
+  font-size: 12px
+.font-14
+  font-size: 14px
+.font-3rem
+  font-size: 3rem
+.font-20
+  font-size: 20px
+.font-25
+  font-size: 25px
+.font-30
+  font-size: 30px
+.font-50
+  font-size: 50px
+.h-100
+  height: 100%
+.h-350-px 
+  height: 350px !important
+.mt-n21
+  margin-top: -21% !important
+.mt-n5
+  margin-top: -3.0rem !important
+.mt-n4
+  margin-top: -1.5rem !important
+.mr-3
+  margin-right: 1.0rem !important
+.ml-5
+  margin-left: 3rem !important
+.ml-4
+  margin-left: 1.5rem !important
+.ml-3
+  margin-left: 1.0rem !important
+.ml-2
+  margin-left: 0.5rem !important
+.pr-4
+  padding-right: 1.5rem !important
+.pr-5
+  padding-right: 3rem !important
+.pl-5
+  padding-left: 3rem !important
+.pl-4
+  padding-left: 1.5rem !important
+.w-60
+  width: 60%
+.w-64
+  width: 64%
+.w-40
+  width: 40%
+.w-47
+  width: 47%
+.w-31
+  width: 31%
+.w-23
+  width: 23%
+.w-20
+  width: 20%
+.w-15
+  width: 15%
+.w-15-7
+  width: 15.7%
+.w-13
+  width: 13%
+.w-12
+  width: 12%
+.w-10
+  width: 10% !important 
+.w-123-px
+  width: 123px
+.w-37-px
+  width: 37px
+.h-100
+  height: 100% !important 
+.cursor-pointer
+  cursor: pointer
+.opacity-0
+  opacity: 0
+  transition: all 1000ms
+.opacity-1
+  opacity: 100%
+  transition: all 1000ms
+.z-index-1
+  z-index: 1
+.z-index-2
+  z-index: 2  
+
+// Banner principal
+.banner-principal__img 
+  padding: 0px !important
+  img 
+    max-width: 100%
+    padding-right: 2rem
+
+// .banner-principal__info::before
+//   content: " "
+//   position: absolute
+//   top: 16%
+//   left: 55.2%
+//   width: 11%
+//   height: 27%
+//   background-image: url(../assets/curso/banner-img-2.svg)
+//   background-color: transparent
+//   background-repeat: no-repeat
+//   background-size: contain
+//   z-index: 1
+//   overflow: hidden
+//   animation: 8s infinite rotation linear
+// .banner-principal__img::before
+//   content: " "
+//   position: absolute
+//   top: 15%
+//   left: 59%
+//   width: 12%
+//   height: 40%
+//   background-image: url(../assets/curso/banner-img-1.svg)
+//   background-color: transparent
+//   background-repeat: no-repeat
+//   background-size: contain
+//   z-index: 3
+//   overflow: hidden
+//   animation: 3s infinite floating ease-in-out alternate
+  
+// KEY FRAMES
+@keyframes floating 
+  from 
+    transform: translatey(8px)
+
+  to 
+    transform: translatey(-8px)
+// @keyframes rotation 
+//   from 
+//     transform: rotate(0deg)
+
+//   to 
+//     transform: rotate(360deg)
+// @keyframes switch
+//   from 
+//     background-image: url(../assets/curso/banner-camb-1.svg)
+
+//   to 
+//     background-image: url(../assets/curso/banner-camb-2.svg)
+// @keyframes slide-in 
+//   from 
+//     transform: translatex(10px)
+
+//   to 
+//     transform: translatex(-10px)
+
+// MEDIA QUERIES
+@media (min-width: 992px) and (max-width: 1200px)
+  .ml-lg-2
+    margin-left: 0.5rem !important
+
+
+// @media (min-width: 1200px)
+//   .mr-xl-2
+//     margin-right: 1.5rem !important
+// @media (max-width: 991px)  
+
+// @media (min-width: 1200px) and (max-width: 1400px)
+
+@media (min-width: 1400px)
+  .banner-principal__img::before
+    left: 55%
+
+// Animaciones
+.floating  
+  animation: 3s infinite floating ease-in-out alternate
+
+.zoom-in
+  transform: scale(1)
+  transition: all 800ms
+.zoom-in:hover img, .zoom-in:hover td figure img
+  transform: scale(1.1)
+  transition: all 800ms
+  z-index: 2
+.zoom-in2
+  transform: scale(1)
+  transition: all 800ms
+.zoom-in2:hover .h4, .zoom-in2:hover p
+  transform: scale(1.1)
+  transition: all 800ms
+  z-index: 2
+
+// Texto
+.text-sistema 
+  color: $color-sistema-texto !important
+.text-azul
+  color: #316999 !important
+.text-amarillo
+  color: #FFF505 !important
+.text-morado
+  color: #5C22C3 !important
+.text-rojo
+  color: #FF0000 !important
+
+// Backgrounds
+.bg-blanco-deg
+  background: rgb(222,222,222)
+  background: linear-gradient(0deg, rgba(222,222,222,1) 1%, rgba(255,255,255,1) 38%)
+.bg-gris-deg
+  background: rgb(222,222,222)
+  background: linear-gradient(180deg, rgba(222,222,222,1) 1%, rgba(255,255,255,1) 48%, rgba(222,222,222,1) 99%)
+.bg-azul-deg
+  background: rgb(3,155,229)
+  background: linear-gradient(180deg, rgba(3,155,229,1) 1%, rgba(77,208,225,1) 100%)
+.bg-naranja
+  background-color: #FFECE3
+.bg-naranja-fuerte
+  background-color: #FF9B6A
+.bg-verde-claro
+  background-color: #EEFFE8
+.bg-gris-claro
+  background-color: #F6F6F6
+.bg-rojo-claro
+  background-color: #F7EDF9
+.bg-azul-oscuro
+  background-color: #12263F
+.bg-morado
+  background-color: #592FE6
+.bg-morado-claro
+  background-color: #EDE8FF
+.bg-amarillo-claro
+  background-color: #FDF2D6
+.bg-amarillo-degradado
+  background: rgb(255,214,115)
+  background: linear-gradient(90deg, rgba(255,214,115,1) 0%, rgba(255,182,0,1) 46%, rgba(255,182,0,1) 70%, rgba(255,107,0,1) 100%)
+.bg-blanco
+  background-color: $white
+.bg-primario
+  background-color: $color-primario !important
+.bg-azul-oscuro
+  background-color: #0D2380
+.bg-azul-claro
+  background-color:#64B5F626 !important
+
+
+// .fondo-img-1
+//   background-image: url(../assets/template/tema-1-3.png)
+//   background-repeat: no-repeat
+//   background-size: cover
+// .fondo-img-2
+//   background-image: url(../assets/template/fondo-2.png)
+//   background-repeat: no-repeat
+//   background-size: cover
+
+// Bordes
+.border-top-gris
+  border-top: 1px solid gray
+.border-top-amarillo
+  border-top: 3px solid #E2C13A
+.border-right-amarillo-4
+  border-right: 5px solid #E2C13A
+.border-right-azul-4
+  border-right: 5px solid #1565C0
+.border-naranja 
+  border: 3px solid #FE502D
+.border-right-gris
+  border-right: 3px solid #AFAFAF
+.border-azul
+  border: 3px solid #64B5F6
+.border-gris-1
+  border: 1px solid #F6F6F6
+.border-gris-4
+  border: 4px solid #F6F6F6
+.rounded-20
+  border-radius: 20px
+.rounded-20-izq
+  border-radius: 20px 0px 0px 20px
+.rounded-15
+  border-radius: 15px
+.rounded-15-top
+  border-radius: 15px 15px 0px 0px
+.rounded-15-izq
+  border-radius: 15px 0px 0px 15px
+.box-shadow
+  box-shadow: 0px 3px 10px lightgray
+
+// Imagen infografica
+.img-infografica-b__modal
+  background-color: rgba(255,255,255,0.9)
+  border-radius: 20px
+  border-top: 50px solid #FE502D
+  .img-infografica-b__modal__btn-cerrar
+    top: -40px
+    right: 20px
+    background-color: $white
+    border-radius: 20px
+    padding: 7px
+    .fa-times::before
+      color: #FE502D
+  .img-infografica-b__modal__contenido
+      p, .h4
+        color: $color-sistema-texto !important
+
+// Linea tiempo
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  color: $white !important
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+  background-color: #C9F1F6 !important
+
+// Lista
+.fa-angle-right::before
+  color: $color-acento-contenido
+
+// NAV HOLDER 2
+
+.nav-holder2
+  display: inline-block
+  margin: 10px 5px
+  overflow: hidden
+  position: relative
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+
+.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+.nav-holder2:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #88E0EF
+  opacity: 0.8
+  z-index: 888
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+
+.nav-holder2:before
+  -webkit-transform: translateY(80%)
+  -moz-transform: translateY(80%)
+  transform: translateY(80%)
+
+.nav-holder2:hover:before
+  -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
+  transform: translateY(0)
+  opacity: 0.9
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+  border-top-left-radius: 14px
+  border-top-right-radius: 14px
+
+.nav-holder2
+  .text
+    position: absolute
+    top: 73%
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+    bottom: 0
+    padding: 1em
+  img
+    backface-visibility: hidden
+    max-width: 100%
+    vertical-align: top
+    z-index: 0
+  p
+    margin: 0
+    opacity: 0
+    line-height: 1.2em
+
+.nav-holder2 .h4
+  margin: 0
+  opacity: 1
+
+.nav-holder2:hover
+  .text
+    top: 5%
+  h4, p
+    color: #12263F
+    opacity: 1
+
+// IMAGE COVER
+.image-cover
+  position: absolute
+  top: 0px
+  opacity: 0
+  transition: all 1000ms
+.image-cover:hover
+  display:block
+  opacity: 100%
+  transition: all 650ms
+
+// QUOTE
+.fa-quote-left:before, .fa-quote-right:before
+  color: #5A189A
+.bloque-texto-b.color-acento-botones::before
+  background-color: #5A189A40
+
+.barra-avance__boton--regresar i
+  color: $color-sistema-texto
+.barra-avance__boton--regresar:hover span, .barra-avance__boton--regresar:focus span
+  color: #FFF !important
+.banner-interno__titulo__icono i
+  color: #ffb74d !important
+
+.bloque-texto-b.color-acento-contenido::before
+  background-color: #FFF5E0
+
+
+
