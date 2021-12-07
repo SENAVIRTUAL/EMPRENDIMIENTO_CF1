@@ -1,1 +1,2 @@
-module.exports = 'Ruta de navegación del MOOC'
+module.exports =
+  'Componente Formativo con un nombre extremadamente largo y extenso'
